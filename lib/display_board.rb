@@ -5,7 +5,7 @@ def display_board(board)
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
-  puts " #{board[6]} | #{board[7]} | {board[8]} "
+  puts " #{board[6]} | #{board[7]} | #{}{board[8]} "
 end
 #1	prints a blank board when the board array is empty
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
