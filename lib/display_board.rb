@@ -5,7 +5,7 @@ def display_board(board)
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+  puts " #{board[6]} | #{board[7]} | {board[8]} "
 end
 #1	prints a blank board when the board array is empty
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
@@ -28,6 +28,6 @@ display_board(board)
 #7 Prints a board with X winning in a top left to bottom right diagonal
 board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 display_board(board)
-# Prints a board with O winning in a top right to bottom left diagonal
+#8 Prints a board with O winning in a top right to bottom left diagonal
 board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
 display_board(board)
